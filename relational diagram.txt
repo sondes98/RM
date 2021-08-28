@@ -1,0 +1,15 @@
+
+
+
+__________________relational diagram____________________
+
+
+  Hotel(Hotel_name,Htotel_type,#type_id,#Room_id,#Employee_id)
+
+  Type(Type_id,Type_name)
+
+  Room(Room_id,Floor,#Catregory_name)
+
+  Category(Category_id,Category_name,Price,Beds_number,#Room_id)
+ 
+  Employee(Employee_id,Employee_Name,Employee_Speciality)
